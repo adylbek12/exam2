@@ -157,4 +157,14 @@ let result = calculateAverage(numbersArray);
 
     console.log('строка в верхнем',upperCaseStrings);
 
-    
+
+    // 6) Напишите функцию, которая принимает массив чисел и возвращает новый массив, содержащий только четные числа.
+
+
+    function filterEvenNumbers(numbers) {
+        return numbers.filter((number) => number % 2 === 0);
+    }
+
+    let number4 = [1,2,3,4,5,6,7,8,9]
+    let resultNumbers = filterEvenNumbers(number4)
+    console.log('четные числа ' ,resultNumbers);
